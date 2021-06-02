@@ -1,0 +1,1358 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description:" content="We are offering the best online courses covering various topics">
+  <meta name="keywords" content="Course, Online, Education, Web Development, Graphics, Business, Marketing, Health, Design">
+  <meta name="author:" content="Tomas Kravak">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EduPlus - The best online courses</title>
+
+
+  <!-- Google fonts -->
+  <!-- ROBOTO -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
+
+  <!-- HIND -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- IBMPlexSans -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/7e95d9964b.js" crossorigin="anonymous"></script>
+
+  <!-- CSS style sheet -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/spec_styles.css">
+
+
+</head>
+
+<body>
+
+  <!-- Hero Area -->
+  <section class="section about_section-1">
+    <!-- Menu Area-->
+    <div class="container">
+
+      <div class="row">
+        <div class="col-2">
+
+          <!-- logo -->
+          <div class="logo">
+            <img class="logo__icon" src="images/logo.png" alt="logo-icon">
+            <p class="logo__text roboto-font"><span class="roboto-font-bold">Edu</span>Plus</p>
+          </div>
+        </div>
+
+
+        <div class="col-7 navigation">
+
+          <!-- Main navigation -->
+          <nav class="navbar main-nav roboto-font-medium">
+
+            <div class="dropdown">
+              <a class="dropdown__hyper" href="index.html">Home
+                <i class="fas fa-angle-down main-nav__item__icon"></i>
+              </a>
+              <div class="dropdown-content roboto-font-medium">
+                <a href="our_course.html">Courses</a>
+                <a href="event_details.html">Events</a>
+                <a href="about_us.html">About Us</a>
+              </div>
+            </div>
+
+            <div class="dropdown">
+              <a class="dropdown__hyper" href="our_course.html">Courses
+                <i class="fas fa-angle-down main-nav__item__icon"></i>
+              </a>
+              <div class="dropdown-content roboto-font-medium">
+                <a href="our_course.html">Courses</a>
+                <a href="our_course.html">Courses List</a>
+                <a href="courses_details.html">Courses Details</a>
+              </div>
+            </div>
+
+            <div class="dropdown">
+              <a class="dropdown__hyper" href="event_details.html">Events
+                <i class="fas fa-angle-down main-nav__item__icon"></i>
+              </a>
+              <div class="dropdown-content roboto-font-medium">
+                <a href="event_details.html">Events</a>
+                <a href="event_details.html">Events List</a>
+                <a href="event_details.html">Events Details</a>
+              </div>
+            </div>
+
+            <div class="dropdown">
+              <a class="dropdown__hyper" href="our_course.html">Pages
+                <i class="fas fa-angle-down main-nav__item__icon"></i>
+              </a>
+              <div class="dropdown-content roboto-font-medium">
+                <a href="instructor_details.html">Instructor</a>
+                <a href="FAQ.html">FAQ</a>
+                <a href="blog_details.html">Blog</a>
+              </div>
+            </div>
+
+            <div class="dropdown">
+              <a class="dropdown__hyper" href="blog_standard.html">Blog
+                <i class="fas fa-angle-down main-nav__item__icon"></i>
+              </a>
+              <div class="dropdown-content roboto-font-medium">
+                <a href="blog_standard.html">Blog</a>
+                <a href="blog_details.html">Blog List</a>
+                <a href="blog_details.html">Blog Details</a>
+              </div>
+            </div>
+
+            <div class="dropdown">
+              <a class="dropdown__hyper" href="contact_us.html">Contact
+              </a>
+            </div>
+
+
+          </nav>
+        </div>
+
+
+        <!-- Buttons -->
+        <div class="col-3 hero-area-buttons">
+
+          <button class="hero-area-buttons__first" type="button" name="fb-btn" onclick="window.location.href='https://facebook.com';">
+            <i class="fab fa-facebook-f"></i>
+          </button>
+
+          <button class="hero-area-buttons__second" type="button" name="youtube-btn" onclick="window.location.href='https://youtube.com';">
+            <i class="fab fa-youtube"></i>
+          </button>
+
+          <button class="hero-area-buttons__third roboto-font-bold" type="button" name="sign-btn">
+            <i class="far fa-user-circle"></i>
+            SIGN IN
+          </button>
+
+          <button class="hero-area-buttons__fourth " type="button" name="bar-btn">
+            <img src="images/hero-area-bar.png" alt="bar-icon">
+          </button>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container hero-main">
+      <div class="row">
+        <div class="col-12 hero-main__bg-set">
+          <h1 class="hero-main-headline">Our Courses</h1>
+          <p class="hero-main-text hind-font-medium">Home > Courses</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Courses-->
+  <section>
+
+    <div class="container">
+
+
+    <!-- Menu-->
+    <div class="row">
+      <div class="col-12">
+        <div class="ourcourses-courses-menu">
+          <button class="gallery-menu__item" type="button" name="button" onclick="gallery_courses('all')">Show All
+          </button>
+          <button class="gallery-menu__item" type="button" name="button" onclick="gallery_courses('design')">Design
+          </button>
+          <button class="gallery-menu__item" type="button" name="button" onclick="gallery_courses('computer')">Computer
+          </button>
+          <button class="gallery-menu__item" type="button" name="button" onclick="gallery_courses('development')">Development
+          </button>
+          <button class="gallery-menu__item" type="button" name="button" onclick="gallery_courses('medical')">Medical
+          </button>
+          <button class="gallery-menu__item" type="button" name="button" onclick="gallery_courses('photography')">Photography
+          </button>
+          <button class="gallery-menu__item" type="button" name="button" onclick="gallery_courses('marketing')">Marketing
+          </button>
+          <button class="gallery-menu__item" type="button" name="button" onclick="gallery_courses('driving')">Driving
+          </button>
+          <button class="gallery-menu__item" type="button" name="button" onclick="gallery_courses('business')">Business
+          </button>
+          <hr class="gallery-menu__row" />
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+         <div class="col-2">
+
+         </div>
+
+           <!-- Example course - n.1 -->
+           <div id="development" class="col-2 main1 course-exam">
+             <div class="course-exam__hide">
+               <div>
+                 <img class="course-exam__img" src="images/A-course1.png" alt="course-img">
+               </div>
+
+               <!-- avatar -->
+               <div class="course-exam__avatar roboto-font-bold">
+                 <img class="course-exam__avatar-icon" src="images/avial-icon.png" alt="avatar">
+                 <p class="course-exam__avatar-text">Warner</p>
+
+
+                 <!-- tag-picture -->
+                 <div class="course-exam__avatar-tag roboto-font-bold">
+                   <p class="course-exam__avatar-text-tag">$59</p>
+                 </div>
+               </div>
+
+               <div class="course-exam__text">
+
+
+                 <!-- tag-text -->
+                 <div class="course-exam__text__lang roboto-font-bold">
+                   <p>ENGLISH</p>
+                 </div>
+                 <i class="fas fa-star checked"></i>
+                 <i class="fas fa-star checked"></i>
+                 <i class="fas fa-star checked"></i>
+                 <i class="fas fa-star checked"></i>
+                 <i class="fas fa-star-half-alt checked"></i>
+                 <h3>Best Courses For Learning English</h3>
+                 <hr class="course-exam__text__divide-line">
+                 <!-- Meta -->
+                 <i class="far fa-user course-section__icon"></i>
+                 <p class="course-exam__text__text-p course-section__text__text-one">25</p>
+                 <i class="far fa-clock course-section__icon"></i>
+                 <p class="course-exam__text__text-p course-section__text__text-one">36hr</p>
+                 <i class="far fa-comments course-section__icon"></i>
+                 <p class="course-exam__text__text-p course-section__text__text-one">2.5k</p>
+               </div>
+             </div>
+
+
+             <!-- Example course - n.1 covering-->
+             <div class="main2 col-2">
+               <div class="">
+
+                 <div class="course-exam-2">
+
+                   <div class="course-exam-2__text__lang roboto-font-bold">
+                     <p>ENGLISH</p>
+                   </div>
+                   <i class="fas fa-star checked-2"></i>
+                   <i class="fas fa-star checked-2"></i>
+                   <i class="fas fa-star checked-2"></i>
+                   <i class="fas fa-star checked-2"></i>
+                   <i class="fas fa-star-half-alt checked-2"></i>
+                   <h3 class="course-exam-2__header">Best Courses For Learning English</h3>
+
+                   <div class="course-exam__avatar-2 roboto-font-bold">
+                     <!-- tag-picture -->
+                     <img class="course-exam-2__avatar-icon" src="images/avial-icon.png" alt="avatar">
+                     <p class="course-exam-2__avatar-text">Warner</p>
+                     <div class="course-exam-2__avatar-tag roboto-font-bold">
+                       <p class="course-exam__avatar-text-tag">$59</p>
+                     </div>
+                   </div>
+
+                   <p class="course-exam-2__basic-text hind-font-regular">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam id dolor.
+                     Vivamus luctus.</p>
+
+                   <div class="course-exam-2__en-btnss">
+                     <button class="course-exam-2__en-btn roboto-font-bold" type="button" name="enrolled-btn" onclick="window.location.href='courses_details.html';">GET ENROLLED
+                       <i class="fas fa-long-arrow-alt-right"></i>
+                     </button>
+
+                   </div>
+
+                   <div class="course-exam-2__meta">
+                     <!-- Meta -->
+                     <i class="far fa-user"></i>
+                     <p class="course-exam-2__text__text-p">25</p>
+                     <i class="far fa-clock"></i>
+                     <p class="course-exam-2__text__text-p">36hr</p>
+                     <i class="far fa-comments"></i>
+                     <p class="course-exam-2__text__text-p">2.5k</p>
+                   </div>
+
+                 </div>
+               </div>
+             </div>
+           </div>
+
+
+
+           <!-- Example course - n.2 -->
+           <div id="design" class="col-2 main1 course-exam">
+             <div class="course-exam__hide">
+               <div>
+                 <img class="course-exam__img" src="images/A-course2.png" alt="course-img">
+               </div>
+
+               <!-- avatar -->
+               <div class="course-exam__avatar roboto-font-bold">
+                 <img class="course-exam__avatar-icon" src="images/avial-icon.png" alt="avatar">
+                 <p class="course-exam__avatar-text">Warner</p>
+
+
+                 <!-- tag-picture -->
+                 <div class="course-exam__avatar-tag roboto-font-bold">
+                   <p class="course-exam__avatar-text-tag">$59</p>
+                 </div>
+               </div>
+
+               <div class="course-exam__text">
+
+
+                 <!-- tag-text -->
+                 <div class="course-exam__text__lang roboto-font-bold">
+                   <p>DESIGN</p>
+                 </div>
+                 <i class="fas fa-star checked"></i>
+                 <i class="fas fa-star checked"></i>
+                 <i class="fas fa-star checked"></i>
+                 <i class="fas fa-star checked"></i>
+                 <i class="fas fa-star-half-alt checked"></i>
+                 <h3>Introduce About Graphics Design For Beginners</h3>
+                 <hr class="course-exam__text__divide-line">
+                 <!-- Meta -->
+                 <i class="far fa-user course-section__icon"></i>
+                 <p class="course-exam__text__text-p course-section__text__text-one">25</p>
+                 <i class="far fa-clock course-section__icon"></i>
+                 <p class="course-exam__text__text-p course-section__text__text-one">36hr</p>
+                 <i class="far fa-comments course-section__icon"></i>
+                 <p class="course-exam__text__text-p course-section__text__text-one">2.5k</p>
+               </div>
+             </div>
+
+
+             <!-- Example course - n.2 covering-->
+             <div class="main2 col-2">
+               <div class="">
+
+                 <div class="course-exam-2">
+
+                   <div class="course-exam-2__text__lang roboto-font-bold">
+                     <p>DESIGN</p>
+                   </div>
+                   <i class="fas fa-star checked-2"></i>
+                   <i class="fas fa-star checked-2"></i>
+                   <i class="fas fa-star checked-2"></i>
+                   <i class="fas fa-star checked-2"></i>
+                   <i class="fas fa-star-half-alt checked-2"></i>
+                   <h3 class="course-exam-2__header">Introduce About Graphics Design For Beginners</h3>
+
+                   <div class="course-exam__avatar-2 roboto-font-bold">
+                     <!-- tag-picture -->
+                     <img class="course-exam-2__avatar-icon" src="images/avial-icon.png" alt="avatar">
+                     <p class="course-exam-2__avatar-text">Warner</p>
+                     <div class="course-exam-2__avatar-tag roboto-font-bold">
+                       <p class="course-exam__avatar-text-tag">$59</p>
+                     </div>
+                   </div>
+
+                   <p class="course-exam-2__basic-text hind-font-regular">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam id dolor.
+                     Vivamus luctus.</p>
+
+                   <div class="course-exam-2__en-btnss">
+                     <button class="course-exam-2__en-btn roboto-font-bold" type="button" name="enrolled-btn" onclick="window.location.href='courses_details.html';">GET ENROLLED
+                       <i class="fas fa-long-arrow-alt-right"></i>
+                     </button>
+
+                   </div>
+
+                   <div class="course-exam-2__meta">
+                     <!-- Meta -->
+                     <i class="far fa-user"></i>
+                     <p class="course-exam-2__text__text-p">25</p>
+                     <i class="far fa-clock"></i>
+                     <p class="course-exam-2__text__text-p">36hr</p>
+                     <i class="far fa-comments"></i>
+                     <p class="course-exam-2__text__text-p">2.5k</p>
+                   </div>
+
+                 </div>
+               </div>
+             </div>
+           </div>
+
+
+
+
+           <!-- Example course - n.3 -->
+           <div id="business" class="col-2 main1 course-exam">
+             <div class="course-exam__hide">
+               <div>
+                 <img class="course-exam__img" src="images/A-course3.jpg" alt="course-img">
+               </div>
+
+               <!-- avatar -->
+               <div class="course-exam__avatar roboto-font-bold">
+                 <img class="course-exam__avatar-icon" src="images/avial-icon.png" alt="avatar">
+                 <p class="course-exam__avatar-text">Warner</p>
+
+
+                 <!-- tag-picture -->
+                 <div class="course-exam__avatar-tag roboto-font-bold">
+                   <p class="course-exam__avatar-text-tag">$59</p>
+                 </div>
+               </div>
+
+               <div class="course-exam__text">
+
+
+                 <!-- tag-text -->
+                 <div class="course-exam__text__lang roboto-font-bold">
+                   <p class="course-exam__text__lang-3">BUSINESS</p>
+                 </div>
+                 <i class="fas fa-star checked"></i>
+                 <i class="fas fa-star checked"></i>
+                 <i class="fas fa-star checked"></i>
+                 <i class="fas fa-star checked"></i>
+                 <i class="fas fa-star-half-alt checked"></i>
+                 <h3>How to improve Business Studies For Beginners</h3>
+                 <hr class="course-exam__text__divide-line">
+                 <!-- Meta -->
+                 <i class="far fa-user course-section__icon"></i>
+                 <p class="course-exam__text__text-p course-section__text__text-one">25</p>
+                 <i class="far fa-clock course-section__icon"></i>
+                 <p class="course-exam__text__text-p course-section__text__text-one">36hr</p>
+                 <i class="far fa-comments course-section__icon"></i>
+                 <p class="course-exam__text__text-p course-section__text__text-one">2.5k</p>
+               </div>
+             </div>
+
+
+             <!-- Example course - n.3 covering-->
+             <div class="main2 col-2">
+               <div class="">
+
+                 <div class="course-exam-2">
+
+                   <div class="course-exam-2__text__lang roboto-font-bold">
+                     <p>BUSINESS</p>
+                   </div>
+                   <i class="fas fa-star checked-2"></i>
+                   <i class="fas fa-star checked-2"></i>
+                   <i class="fas fa-star checked-2"></i>
+                   <i class="fas fa-star checked-2"></i>
+                   <i class="fas fa-star-half-alt checked-2"></i>
+                   <h3 class="course-exam-2__header">How to improve Business Studies For Beginners</h3>
+
+                   <div class="course-exam__avatar-2 roboto-font-bold">
+                     <!-- tag-picture -->
+                     <img class="course-exam-2__avatar-icon" src="images/avial-icon.png" alt="avatar">
+                     <p class="course-exam-2__avatar-text">Warner</p>
+                     <div class="course-exam-2__avatar-tag roboto-font-bold">
+                       <p class="course-exam__avatar-text-tag">$59</p>
+                     </div>
+                   </div>
+
+                   <p class="course-exam-2__basic-text hind-font-regular">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam id dolor.
+                     Vivamus luctus.</p>
+
+                   <div class="course-exam-2__en-btnss">
+                     <button class="course-exam-2__en-btn roboto-font-bold" type="button" name="enrolled-btn" onclick="window.location.href='courses_details.html';">GET ENROLLED
+                       <i class="fas fa-long-arrow-alt-right"></i>
+                     </button>
+
+                   </div>
+
+                   <div class="course-exam-2__meta">
+                     <!-- Meta -->
+                     <i class="far fa-user"></i>
+                     <p class="course-exam-2__text__text-p">25</p>
+                     <i class="far fa-clock"></i>
+                     <p class="course-exam-2__text__text-p">36hr</p>
+                     <i class="far fa-comments"></i>
+                     <p class="course-exam-2__text__text-p">2.5k</p>
+                   </div>
+
+                 </div>
+               </div>
+             </div>
+           </div>
+
+
+
+           <!-- Example course - n.4 -->
+           <div id="development" class="col-2 main1 course-exam">
+             <div class="course-exam__hide">
+               <div>
+                 <img class="course-exam__img" src="images/A-course4.png" alt="course-img">
+               </div>
+
+               <!-- avatar -->
+               <div class="course-exam__avatar roboto-font-bold">
+                 <img class="course-exam__avatar-icon" src="images/avial-icon.png" alt="avatar">
+                 <p class="course-exam__avatar-text">Warner</p>
+
+
+                 <!-- tag-picture -->
+                 <div class="course-exam__avatar-tag roboto-font-bold">
+                   <p class="course-exam__avatar-text-tag">$59</p>
+                 </div>
+               </div>
+
+               <div class="course-exam__text">
+
+
+                 <!-- tag-text -->
+                 <div class="course-exam__text__lang roboto-font-bold">
+                   <p>PHP</p>
+                 </div>
+                 <i class="fas fa-star checked"></i>
+                 <i class="fas fa-star checked"></i>
+                 <i class="fas fa-star checked"></i>
+                 <i class="fas fa-star checked"></i>
+                 <i class="fas fa-star-half-alt checked"></i>
+                 <h3>Best Courses For Learning PHP</h3>
+                 <hr class="course-exam__text__divide-line">
+                 <!-- Meta -->
+                 <i class="far fa-user course-section__icon"></i>
+                 <p class="course-exam__text__text-p course-section__text__text-one">25</p>
+                 <i class="far fa-clock course-section__icon"></i>
+                 <p class="course-exam__text__text-p course-section__text__text-one">36hr</p>
+                 <i class="far fa-comments course-section__icon"></i>
+                 <p class="course-exam__text__text-p course-section__text__text-one">2.5k</p>
+               </div>
+             </div>
+
+
+             <!-- Example course - n.4 covering-->
+             <div class="main2 col-2">
+               <div class="">
+
+                 <div class="course-exam-2">
+
+                   <div class="course-exam-2__text__lang roboto-font-bold">
+                     <p>PHP</p>
+                   </div>
+                   <i class="fas fa-star checked-2"></i>
+                   <i class="fas fa-star checked-2"></i>
+                   <i class="fas fa-star checked-2"></i>
+                   <i class="fas fa-star checked-2"></i>
+                   <i class="fas fa-star-half-alt checked-2"></i>
+                   <h3 class="course-exam-2__header">Best Courses For Learning PHP</h3>
+
+                   <div class="course-exam__avatar-2 roboto-font-bold">
+                     <!-- tag-picture -->
+                     <img class="course-exam-2__avatar-icon" src="images/avial-icon.png" alt="avatar">
+                     <p class="course-exam-2__avatar-text">Warner</p>
+                     <div class="course-exam-2__avatar-tag roboto-font-bold">
+                       <p class="course-exam__avatar-text-tag">$59</p>
+                     </div>
+                   </div>
+
+                   <p class="course-exam-2__basic-text hind-font-regular">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam id dolor.
+                     Vivamus luctus.</p>
+
+                   <div class="course-exam-2__en-btnss">
+                     <button class="course-exam-2__en-btn roboto-font-bold" type="button" name="enrolled-btn" onclick="window.location.href='courses_details.html';">GET ENROLLED
+                       <i class="fas fa-long-arrow-alt-right"></i>
+                     </button>
+
+                   </div>
+
+                   <div class="course-exam-2__meta">
+                     <!-- Meta -->
+                     <i class="far fa-user"></i>
+                     <p class="course-exam-2__text__text-p">25</p>
+                     <i class="far fa-clock"></i>
+                     <p class="course-exam-2__text__text-p">36hr</p>
+                     <i class="far fa-comments"></i>
+                     <p class="course-exam-2__text__text-p">2.5k</p>
+                   </div>
+
+                 </div>
+               </div>
+             </div>
+           </div>
+
+
+
+         <div class="col-2">
+
+         </div>
+       </div>
+
+       <div class="row">
+         <div class="col-2">
+
+         </div>
+
+
+         <!-- Example course - n.5 -->
+         <div id="marketing" class="col-2 main1 course-exam">
+           <div class="course-exam__hide">
+             <div>
+               <img class="course-exam__img" src="images/A-course5.png" alt="course-img">
+             </div>
+
+             <!-- avatar -->
+             <div class="course-exam__avatar roboto-font-bold">
+               <img class="course-exam__avatar-icon" src="images/avial-icon.png" alt="avatar">
+               <p class="course-exam__avatar-text">Warner</p>
+
+
+               <!-- tag-picture -->
+               <div class="course-exam__avatar-tag roboto-font-bold">
+                 <p class="course-exam__avatar-text-tag">$59</p>
+               </div>
+             </div>
+
+             <div class="course-exam__text">
+
+
+               <!-- tag-text -->
+               <div class="course-exam__text__lang roboto-font-bold">
+                 <p class="course-exam__text__lang-5">MARKETING</p>
+               </div>
+               <i class="fas fa-star checked"></i>
+               <i class="fas fa-star checked"></i>
+               <i class="fas fa-star checked"></i>
+               <i class="fas fa-star checked"></i>
+               <i class="fas fa-star-half-alt checked"></i>
+               <h3>Best Courses For Learning Marketing Courses</h3>
+               <hr class="course-exam__text__divide-line">
+               <!-- Meta -->
+               <i class="far fa-user course-section__icon"></i>
+               <p class="course-exam__text__text-p course-section__text__text-one">25</p>
+               <i class="far fa-clock course-section__icon"></i>
+               <p class="course-exam__text__text-p course-section__text__text-one">36hr</p>
+               <i class="far fa-comments course-section__icon"></i>
+               <p class="course-exam__text__text-p course-section__text__text-one">2.5k</p>
+             </div>
+           </div>
+
+
+           <!-- Example course - n.5 covering-->
+           <div class="main2 col-2">
+             <div class="">
+
+               <div class="course-exam-2">
+
+                 <div class="course-exam-2__text__lang roboto-font-bold">
+                   <p>MARKETING</p>
+                 </div>
+                 <i class="fas fa-star checked-2"></i>
+                 <i class="fas fa-star checked-2"></i>
+                 <i class="fas fa-star checked-2"></i>
+                 <i class="fas fa-star checked-2"></i>
+                 <i class="fas fa-star-half-alt checked-2"></i>
+                 <h3 class="course-exam-2__header">Best Courses For Learning Marketing Courses</h3>
+
+                 <div class="course-exam__avatar-2 roboto-font-bold">
+                   <!-- tag-picture -->
+                   <img class="course-exam-2__avatar-icon" src="images/avial-icon.png" alt="avatar">
+                   <p class="course-exam-2__avatar-text">Warner</p>
+                   <div class="course-exam-2__avatar-tag roboto-font-bold">
+                     <p class="course-exam__avatar-text-tag">$59</p>
+                   </div>
+                 </div>
+
+                 <p class="course-exam-2__basic-text hind-font-regular">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam id dolor.
+                   Vivamus luctus.</p>
+
+                 <div class="course-exam-2__en-btnss">
+                   <button class="course-exam-2__en-btn roboto-font-bold" type="button" name="enrolled-btn" onclick="window.location.href='courses_details.html';">GET ENROLLED
+                     <i class="fas fa-long-arrow-alt-right"></i>
+                   </button>
+
+                 </div>
+
+                 <div class="course-exam-2__meta">
+                   <!-- Meta -->
+                   <i class="far fa-user"></i>
+                   <p class="course-exam-2__text__text-p">25</p>
+                   <i class="far fa-clock"></i>
+                   <p class="course-exam-2__text__text-p">36hr</p>
+                   <i class="far fa-comments"></i>
+                   <p class="course-exam-2__text__text-p">2.5k</p>
+                 </div>
+
+               </div>
+             </div>
+           </div>
+         </div>
+
+
+
+         <!-- Example course - n.6 -->
+         <div id="photography" class="col-2 main1 course-exam">
+           <div class="course-exam__hide">
+             <div>
+               <img class="course-exam__img" src="images/A-course6.png" alt="course-img">
+             </div>
+
+             <!-- avatar -->
+             <div class="course-exam__avatar roboto-font-bold">
+               <img class="course-exam__avatar-icon" src="images/avial-icon.png" alt="avatar">
+               <p class="course-exam__avatar-text">Warner</p>
+
+
+               <!-- tag-picture -->
+               <div class="course-exam__avatar-tag roboto-font-bold">
+                 <p class="course-exam__avatar-text-tag">$59</p>
+               </div>
+             </div>
+
+             <div class="course-exam__text">
+
+
+               <!-- tag-text -->
+               <div class="course-exam__text__lang roboto-font-bold">
+                 <p>FILMS</p>
+               </div>
+               <i class="fas fa-star checked"></i>
+               <i class="fas fa-star checked"></i>
+               <i class="fas fa-star checked"></i>
+               <i class="fas fa-star checked"></i>
+               <i class="fas fa-star-half-alt checked"></i>
+               <h3>Intruduce About Movie & Photography For Beginners</h3>
+               <hr class="course-exam__text__divide-line">
+               <!-- Meta -->
+               <i class="far fa-user course-section__icon"></i>
+               <p class="course-exam__text__text-p course-section__text__text-one">25</p>
+               <i class="far fa-clock course-section__icon"></i>
+               <p class="course-exam__text__text-p course-section__text__text-one">36hr</p>
+               <i class="far fa-comments course-section__icon"></i>
+               <p class="course-exam__text__text-p course-section__text__text-one">2.5k</p>
+             </div>
+           </div>
+
+
+           <!-- Example course - n.6 covering-->
+           <div class="main2 col-2">
+             <div class="">
+
+               <div class="course-exam-2">
+
+                 <div class="course-exam-2__text__lang roboto-font-bold">
+                   <p>FILMS</p>
+                 </div>
+                 <i class="fas fa-star checked-2"></i>
+                 <i class="fas fa-star checked-2"></i>
+                 <i class="fas fa-star checked-2"></i>
+                 <i class="fas fa-star checked-2"></i>
+                 <i class="fas fa-star-half-alt checked-2"></i>
+                 <h3 class="course-exam-2__header">Intruduce About Movie & Photography For Beginners</h3>
+
+                 <div class="course-exam__avatar-2 roboto-font-bold">
+                   <!-- tag-picture -->
+                   <img class="course-exam-2__avatar-icon" src="images/avial-icon.png" alt="avatar">
+                   <p class="course-exam-2__avatar-text">Warner</p>
+                   <div class="course-exam-2__avatar-tag roboto-font-bold">
+                     <p class="course-exam__avatar-text-tag">$59</p>
+                   </div>
+                 </div>
+
+                 <p class="course-exam-2__basic-text hind-font-regular">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam id dolor.
+                   Vivamus luctus.</p>
+
+                 <div class="course-exam-2__en-btnss">
+                   <button class="course-exam-2__en-btn roboto-font-bold" type="button" name="enrolled-btn" onclick="window.location.href='courses_details.html';">GET ENROLLED
+                     <i class="fas fa-long-arrow-alt-right"></i>
+                   </button>
+
+                 </div>
+
+                 <div class="course-exam-2__meta">
+                   <!-- Meta -->
+                   <i class="far fa-user"></i>
+                   <p class="course-exam-2__text__text-p">25</p>
+                   <i class="far fa-clock"></i>
+                   <p class="course-exam-2__text__text-p">36hr</p>
+                   <i class="far fa-comments"></i>
+                   <p class="course-exam-2__text__text-p">2.5k</p>
+                 </div>
+
+               </div>
+             </div>
+           </div>
+         </div>
+
+
+         <!-- Example course - n.7 -->
+         <div id="medical" class="col-2 main1 course-exam">
+           <div class="course-exam__hide">
+             <div>
+               <img class="course-exam__img" src="images/A-course7.png" alt="course-img">
+             </div>
+
+             <!-- avatar -->
+             <div class="course-exam__avatar roboto-font-bold">
+               <img class="course-exam__avatar-icon" src="images/avial-icon.png" alt="avatar">
+               <p class="course-exam__avatar-text">Warner</p>
+
+
+               <!-- tag-picture -->
+               <div class="course-exam__avatar-tag roboto-font-bold">
+                 <p class="course-exam__avatar-text-tag">$59</p>
+               </div>
+             </div>
+
+             <div class="course-exam__text">
+
+
+               <!-- tag-text -->
+               <div class="course-exam__text__lang roboto-font-bold">
+                 <p>MEDICAL</p>
+               </div>
+               <i class="fas fa-star checked"></i>
+               <i class="fas fa-star checked"></i>
+               <i class="fas fa-star checked"></i>
+               <i class="fas fa-star checked"></i>
+               <i class="fas fa-star-half-alt checked"></i>
+               <h3>How To Improve Medical Studies For Beginners</h3>
+               <hr class="course-exam__text__divide-line">
+               <!-- Meta -->
+               <i class="far fa-user course-section__icon"></i>
+               <p class="course-exam__text__text-p course-section__text__text-one">25</p>
+               <i class="far fa-clock course-section__icon"></i>
+               <p class="course-exam__text__text-p course-section__text__text-one">36hr</p>
+               <i class="far fa-comments course-section__icon"></i>
+               <p class="course-exam__text__text-p course-section__text__text-one">2.5k</p>
+             </div>
+           </div>
+
+
+           <!-- Example course - n.7 covering-->
+           <div class="main2 col-2">
+             <div class="">
+
+               <div class="course-exam-2">
+
+                 <div class="course-exam-2__text__lang roboto-font-bold">
+                   <p>MEDICAL</p>
+                 </div>
+                 <i class="fas fa-star checked-2"></i>
+                 <i class="fas fa-star checked-2"></i>
+                 <i class="fas fa-star checked-2"></i>
+                 <i class="fas fa-star checked-2"></i>
+                 <i class="fas fa-star-half-alt checked-2"></i>
+                 <h3 class="course-exam-2__header">How To Improve Medical Studies For Beginners</h3>
+
+                 <div class="course-exam__avatar-2 roboto-font-bold">
+                   <!-- tag-picture -->
+                   <img class="course-exam-2__avatar-icon" src="images/avial-icon.png" alt="avatar">
+                   <p class="course-exam-2__avatar-text">Warner</p>
+                   <div class="course-exam-2__avatar-tag roboto-font-bold">
+                     <p class="course-exam__avatar-text-tag">$59</p>
+                   </div>
+                 </div>
+
+                 <p class="course-exam-2__basic-text hind-font-regular">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam id dolor.
+                   Vivamus luctus.</p>
+
+                 <div class="course-exam-2__en-btnss">
+                   <button class="course-exam-2__en-btn roboto-font-bold" type="button" name="enrolled-btn" onclick="window.location.href='courses_details.html';">GET ENROLLED
+                     <i class="fas fa-long-arrow-alt-right"></i>
+                   </button>
+
+                 </div>
+
+                 <div class="course-exam-2__meta">
+                   <!-- Meta -->
+                   <i class="far fa-user"></i>
+                   <p class="course-exam-2__text__text-p">25</p>
+                   <i class="far fa-clock"></i>
+                   <p class="course-exam-2__text__text-p">36hr</p>
+                   <i class="far fa-comments"></i>
+                   <p class="course-exam-2__text__text-p">2.5k</p>
+                 </div>
+
+               </div>
+             </div>
+           </div>
+         </div>
+
+
+
+         <!-- Example course - n.8 -->
+         <div id="computer" class="col-2 main1 course-exam">
+           <div class="course-exam__hide">
+             <div>
+               <img class="course-exam__img" src="images/A-course8.png" alt="course-img">
+             </div>
+
+             <!-- avatar -->
+             <div class="course-exam__avatar roboto-font-bold">
+               <img class="course-exam__avatar-icon" src="images/avial-icon.png" alt="avatar">
+               <p class="course-exam__avatar-text">Warner</p>
+
+
+               <!-- tag-picture -->
+               <div class="course-exam__avatar-tag roboto-font-bold">
+                 <p class="course-exam__avatar-text-tag">$59</p>
+               </div>
+             </div>
+
+             <div class="course-exam__text">
+
+
+               <!-- tag-text -->
+               <div class="course-exam__text__lang roboto-font-bold">
+                 <p>APPS UI</p>
+               </div>
+               <i class="fas fa-star checked"></i>
+               <i class="fas fa-star checked"></i>
+               <i class="fas fa-star checked"></i>
+               <i class="fas fa-star checked"></i>
+               <i class="fas fa-star-half-alt checked"></i>
+               <h3>Learning How To Improve Mobile UI Design</h3>
+               <hr class="course-exam__text__divide-line">
+               <!-- Meta -->
+               <i class="far fa-user course-section__icon"></i>
+               <p class="course-exam__text__text-p course-section__text__text-one">25</p>
+               <i class="far fa-clock course-section__icon"></i>
+               <p class="course-exam__text__text-p course-section__text__text-one">36hr</p>
+               <i class="far fa-comments course-section__icon"></i>
+               <p class="course-exam__text__text-p course-section__text__text-one">2.5k</p>
+             </div>
+           </div>
+
+
+           <!-- Example course - n.8 covering-->
+           <div class="main2 col-2">
+             <div class="">
+
+               <div class="course-exam-2">
+
+                 <div class="course-exam-2__text__lang roboto-font-bold">
+                   <p>APPS UI</p>
+                 </div>
+                 <i class="fas fa-star checked-2"></i>
+                 <i class="fas fa-star checked-2"></i>
+                 <i class="fas fa-star checked-2"></i>
+                 <i class="fas fa-star checked-2"></i>
+                 <i class="fas fa-star-half-alt checked-2"></i>
+                 <h3 class="course-exam-2__header">Learning How To Improve Mobile UI Design</h3>
+
+                 <div class="course-exam__avatar-2 roboto-font-bold">
+                   <!-- tag-picture -->
+                   <img class="course-exam-2__avatar-icon" src="images/avial-icon.png" alt="avatar">
+                   <p class="course-exam-2__avatar-text">Warner</p>
+                   <div class="course-exam-2__avatar-tag roboto-font-bold">
+                     <p class="course-exam__avatar-text-tag">$59</p>
+                   </div>
+                 </div>
+
+                 <p class="course-exam-2__basic-text hind-font-regular">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam id dolor.
+                   Vivamus luctus.</p>
+
+                 <div class="course-exam-2__en-btnss">
+                   <button class="course-exam-2__en-btn roboto-font-bold" type="button" name="enrolled-btn" onclick="window.location.href='courses_details.html';">GET ENROLLED
+                     <i class="fas fa-long-arrow-alt-right"></i>
+                   </button>
+
+                 </div>
+
+                 <div class="course-exam-2__meta">
+                   <!-- Meta -->
+                   <i class="far fa-user"></i>
+                   <p class="course-exam-2__text__text-p">25</p>
+                   <i class="far fa-clock"></i>
+                   <p class="course-exam-2__text__text-p">36hr</p>
+                   <i class="far fa-comments"></i>
+                   <p class="course-exam-2__text__text-p">2.5k</p>
+                 </div>
+
+               </div>
+             </div>
+           </div>
+         </div>
+
+
+         <div class="col-2">
+
+         </div>
+       </div>
+
+
+       </div>
+     </section>
+  <!-- Team-->
+  <section class="our-courses-section-3">
+
+    <div class="container">
+
+      <div class="row">
+        <div class="col-12">
+          <header class="section-header">
+            <p class="section-header__item">■ ■ ■</p>
+            <p class="section-header__item hind-font-bold">Team Members</p>
+            <p class="section-header__item">■ ■ ■</p>
+            <h2>Expert Instructors</h2>
+          </header>
+        </div>
+      </div>
+
+      <div class="row">
+
+        <div class="col-2">
+
+        </div>
+
+        <!-- Teacher n.1-->
+        <div class="col-2 team">
+          <div>
+            <img class="team__img" src="images/Team1.png" alt="course-img">
+            <div class="team-btn dropup">
+              <button class="hero-area-buttons__first" type="button" name="fb-btn" style="color:white">+</button>
+              <div class="dropup-content">
+                <a href="https://twitter.com"><img src="images/Team-twitter.png" alt="twitter-pic"> </a>
+                <a href="https://youtube.com"><img src="images/Team-youtube.png" alt="twitter-pic"> </a>
+                <a href="https://facebook.com"><img src="images/Team-facebook.png" alt="twitter-pic"> </a>
+              </div>
+            </div>
+          </div>
+          <div class="team__text">
+            <h3 class="roboto-font-bold team__img__header">Somalia D Silva</h3>
+            <p class="team__text__simple-text hind-font-regular">Math Teacher</p>
+            <hr class="course-exam__text__divide-line">
+            <!-- Meta -->
+            <i class="fas fa-book course-section__icon"></i>
+            <p class="course-exam__text__text-p course-section__text__text-one">750+ Courses</p>
+          </div>
+        </div>
+
+        <!-- Teacher n.2-->
+        <div class="col-2 team">
+          <div>
+            <img class="team__img" src="images/Team2.png" alt="course-img">
+            <div class="team-btn dropup">
+              <button class="hero-area-buttons__first" type="button" name="fb-btn" style="color:white">+</button>
+              <div class="dropup-content">
+                <a href="https://twitter.com"><img src="images/Team-twitter.png" alt="twitter-pic"> </a>
+                <a href="https://youtube.com"><img src="images/Team-youtube.png" alt="twitter-pic"> </a>
+                <a href="https://facebook.com"><img src="images/Team-facebook.png" alt="twitter-pic"> </a>
+              </div>
+            </div>
+          </div>
+          <div class="team__text">
+            <h3 class="roboto-font-bold team__img__header">David D Warner</h3>
+            <p class="team__text__simple-text hind-font-regular">English Teacher</p>
+            <hr class="course-exam__text__divide-line">
+            <!-- Meta -->
+            <i class="fas fa-book course-section__icon"></i>
+            <p class="course-exam__text__text-p course-section__text__text-one">3850+ Courses</p>
+          </div>
+        </div>
+
+        <!-- Teacher n.3-->
+        <div class="col-2 team">
+          <div>
+            <img class="team__img" src="images/Team3.png" alt="course-img">
+            <div class="team-btn dropup">
+              <button class="hero-area-buttons__first" type="button" name="fb-btn" style="color:white">+</button>
+              <div class="dropup-content">
+                <a href="https://twitter.com"><img src="images/Team-twitter.png" alt="twitter-pic"> </a>
+                <a href="https://youtube.com"><img src="images/Team-youtube.png" alt="twitter-pic"> </a>
+                <a href="https://facebook.com"><img src="images/Team-facebook.png" alt="twitter-pic"> </a>
+              </div>
+            </div>
+          </div>
+          <div class="team__text">
+            <h3 class="roboto-font-bold team__img__header">Xavi Toni Crusse</h3>
+            <p class="team__text__simple-text hind-font-regular">Computer Teacher</p>
+            <hr class="course-exam__text__divide-line">
+            <!-- Meta -->
+            <i class="fas fa-book course-section__icon"></i>
+            <p class="course-exam__text__text-p course-section__text__text-one">632+ Courses</p>
+          </div>
+        </div>
+
+        <!-- Teacher n.4-->
+        <div class="col-2 team">
+          <div>
+            <img class="team__img" src="images/Team4.png" alt="course-img">
+            <div class="team-btn dropup">
+              <button class="hero-area-buttons__first" type="button" name="fb-btn" style="color:white">+</button>
+              <div class="dropup-content">
+                <a href="https://twitter.com"><img src="images/Team-twitter.png" alt="twitter-pic"> </a>
+                <a href="https://youtube.com"><img src="images/Team-youtube.png" alt="twitter-pic"> </a>
+                <a href="https://facebook.com"><img src="images/Team-facebook.png" alt="twitter-pic"> </a>
+              </div>
+            </div>
+          </div>
+          <div class="team__text">
+            <h3 class="roboto-font-bold team__img__header">Shaine Watson</h3>
+            <p class="team__text__simple-text hind-font-regular">Web Designer</p>
+            <hr class="course-exam__text__divide-line">
+            <!-- Meta -->
+            <i class="fas fa-book course-section__icon"></i>
+            <p class="course-exam__text__text-p course-section__text__text-one">985+ Courses</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-1">
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Blog-->
+  <section class="ourcourses-section-4">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <header class="section-header">
+            <p class="section-header__item">■ ■ ■</p>
+            <p class="section-header__item hind-font-bold">Articles & Tipes</p>
+            <p class="section-header__item">■ ■ ■</p>
+            <h2>Latest News & Blog</h2>
+          </header>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-3">
+        </div>
+        <div class="col-2">
+          <!-- News n.1 -->
+          <div class="blog">
+            <div>
+              <img class="course-exam__img" src="images/Blog1.png" alt="course-img">
+            </div>
+
+            <div class="blog__text">
+              <!-- Meta -->
+              <i class="far fa-calendar-alt events_text-part-icon"></i>
+              <p class="hind-font-medium events-sided__meta-text" style="margin-right: 8%">25 NOV 2020</p>
+              <i class="far fa-clock events_text-part-icon"></i>
+              <p class="hind-font-medium events-sided__meta-text">COM(30)</p>
+              <h3 class="blog__text__headline">Learning Resources In Challenge Times Online Workshops</h3>
+              <!-- avatar -->
+              <div class="blog__text__avatar roboto-font-bold">
+                <img class="course-exam__avatar-icon" src="images/avial-icon.png" alt="avatar">
+                <p class="course-exam__avatar-text">David Simala</p>
+
+              </div>
+              <button class="blog__text__arr" type="button" name="btn" onclick="window.location.href='blog_standard.html';">
+                <i class="fas fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-2">
+          <!-- News n.2 -->
+          <div class="blog">
+            <div>
+              <img class="course-exam__img" src="images/Blog2.png" alt="course-img">
+            </div>
+
+            <div class="blog__text">
+              <!-- Meta -->
+              <i class="far fa-calendar-alt events_text-part-icon"></i>
+              <p class="hind-font-medium events-sided__meta-text" style="margin-right: 8%">25 NOV 2020</p>
+              <i class="far fa-clock events_text-part-icon"></i>
+              <p class="hind-font-medium events-sided__meta-text">COM(30)</p>
+              <h3 class="blog__text__headline">Djang Highlights Models Admin And Harness Rela Tioanal Database</h3>
+              <!-- avatar -->
+              <div class="blog__text__avatar roboto-font-bold">
+                <img class="course-exam__avatar-icon" src="images/avial-icon.png" alt="avatar">
+                <p class="course-exam__avatar-text">David Simala</p>
+
+              </div>
+
+              <button class="blog__text__arr" type="button" name="btn" onclick="window.location.href='blog_standard.html';">
+                <i class="fas fa-arrow-right"></i>
+              </button>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+
+          <!-- News n.3 -->
+          <div class="blog">
+            <div>
+              <img class="course-exam__img" src="images/Blog3.png" alt="course-img">
+            </div>
+
+            <div class="blog__text">
+              <!-- Meta -->
+              <i class="far fa-calendar-alt events_text-part-icon"></i>
+              <p class="hind-font-medium events-sided__meta-text" style="margin-right: 8%">25 NOV 2020</p>
+              <i class="far fa-clock events_text-part-icon"></i>
+              <p class="hind-font-medium events-sided__meta-text">COM(30)</p>
+              <h3 class="blog__text__headline">Smash Podcast Episode With Laura Kalbag What Is Online Privacy</h3>
+              <!-- avatar -->
+              <div class="blog__text__avatar roboto-font-bold">
+                <img class="course-exam__avatar-icon" src="images/avial-icon.png" alt="avatar">
+                <p class="course-exam__avatar-text">David Simala</p>
+
+              </div>
+
+            <button class="blog__text__arr" type="button" name="btn" onclick="window.location.href='blog_standard.html';">
+                <i class="fas fa-arrow-right"></i>
+              </button>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Brands-->
+  <section class="ourcourses-section-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <img src="images/Brand1.png" alt="brand-pic">
+          <img src="images/Brand2.png" alt="brand-pic">
+          <img src="images/Brand3.png" alt="brand-pic">
+          <img src="images/Brand4.png" alt="brand-pic">
+          <img src="images/Brand5.png" alt="brand-pic">
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Footer-->
+  <footer class="footer">
+
+    <div class="container footer__bg-set">
+
+      <!-- Top-->
+      <div class="row">
+        <div class="col-2">
+        </div>
+        <div class="col-8">
+          <div class="footer-top">
+
+            <!-- logo -->
+            <div class="logo" style="padding-left:0">
+              <img class="logo__icon" src="images/logo2.png" alt="logo-icon">
+              <p class="footer-top__logo logo__text roboto-font"><span class="roboto-font-bold color">Edu</span>Plus</p>
+            </div>
+            <div class="footer-top__social">
+              <a href="http://facebook.com">
+                <img class="footer-top__social-icon" src="images/Team-facebook.png" alt="twitter-pic">
+                <p class="footer-top__social hind-font-medium">Facebook</p>
+              </a>
+              <a href="http://twitter.com">
+                <img class="footer-top__social-icon" src="images/Team-twitter2.png" alt="twitter-pic">
+                <p class="footer-top__social hind-font-medium">Twitter</p>
+              </a>
+              <a href="http://youtube.com">
+                <img class="footer-top__social-icon" src="images/Team-youtube.png" alt="twitter-pic">
+                <p class="footer-top__social hind-font-medium">Youtube</p>
+              </a>
+              <a href="http://instagram.com">
+                <img class="footer-top__social-icon" src="images/Team-instagram.png" alt="twitter-pic">
+                <p class="footer-top__social hind-font-medium">Instagram</p>
+              </a>
+            </div>
+
+            <hr class="footer-top__row" />
+          </div>
+        </div>
+
+        <div class="col-2">
+
+        </div>
+      </div>
+      <!-- Our Courses -->
+      <div class="row">
+
+        <div class="col-2">
+
+        </div>
+
+        <div class="col-8">
+          <div class="footer-middle">
+            <!-- Our Courses -->
+            <div class="">
+              <div class="footer-middle__text">
+                <h3 class="footer-middle__headline">Our Courses</h3>
+                <ul class="hind-font-regular">
+                  <li>Web Development</li>
+                  <li>Business Studies</li>
+                  <li>Computer Engineering</li>
+                  <li>English Learning</li>
+                  <li>Graphics Design</li>
+                </ul>
+              </div>
+              <div class="footer-middle__text">
+                <ul class="hind-font-regular">
+
+                  <li>Color Combinations</li>
+                  <li>Software Development</li>
+                  <li>Photography</li>
+                  <li>Advance WordPress</li>
+                  <li>Basic PSD To HTML</li>
+                </ul>
+              </div>
+
+              <div class="footer-middle__text">
+                <h3 class="footer-middle__headline">Company</h3>
+                <ul class="hind-font-regular">
+                  <li>About Eduket</li>
+                  <li>Meet Advisors</li>
+                  <li>Join A Career</li>
+                  <li>Latest Courses</li>
+                  <li>Newsletters</li>
+                </ul>
+              </div>
+
+              <!-- Newsletters -->
+              <div class="footer-middle__text" style="width:30%">
+                <h3 class="footer-middle__headline">Newsletter</h3>
+                <p class="hind-font-regular" style="margin-bottom: 10%; margin-top: 0;color:#8698a5">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                  Morbi scelerisque luctus velit.
+                </p>
+
+                <input class="footer-middle__text__search-box hind-font-medium" type="text" placeholder="Enter Your Email">
+                <button class="footer-middle__text__search-btn" type="button" name="fb-btn">
+                  <i class="fas fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Scroll upo icon -->
+        <div class="col-2 return">
+
+          <button id="scrollToTopBtn" class="return-btn" type="button" name="fb-btn">
+            <i class="fas fa-chevron-up"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <div class="footer-bottom">
+            <p class="roboto-font">Copyright © 2020 <span class="roboto-font-bold">EduPlus</span> All Rights Reserved.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- JS file -->
+  <script src="script.js"></script>
+</body>
+
+</html>
